@@ -190,6 +190,8 @@ drwxr-xr-x 2 apache apache  4096 Jul  3  2018 webfonts
 
 Now the Website is  loading 
 
+![alt text](https://github.com/sruthymanohar/awscli-ec2-creation/blob/main/Capture.PNG)
+
 
 
   
