@@ -36,8 +36,8 @@ _https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html_
 Initially, I have configured an IAM user with the available access key ID and AWS secret key.
 
 ```sh
-AWS Access Key ID [None]: AKIAYXMXPC3UW55LBRLA
-AWS Secret Access Key [None]: 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
+AWS Access Key ID [None]: **************
+AWS Secret Access Key [None]: ***********
 Default region name [None]: ap-south-1
 Default output format [None]: json
 
