@@ -1,10 +1,13 @@
-#  Launching an EC2 instance using AWS CLI and attachment of EBS volume
+#  Deployment of EC2 instance and EBS volume using AWSCLI
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## _Description_
 
- The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. Here is a simple document to create an EC2 instance and attachment of additional EBS using AWS CLI.
+Here is a simple  project with an AWS command line interface (AWSCLI). I just tell you the project baseline, here  we want to create a basic infrastructure for a website where there is no access to AWS console. The only details that we have is an  IAM user with progrmatic access. Initially, we are creating a VPC (172.16.0.0/16) in ap-south-1 region  with 3 public subnets. The next step was the creation of EC2 instance, which includes selecting an appropriate AMI, Instance type, security groups, key pairs, etc...In this  project we are using http as our webserver. There was an additional requirement which was to create and attach additional volume (Ebs)to the document root of the Ec2 webserver. 
+ 
+
+
 
 ## _Resources_
 
